@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset = "utf-8">
+		<title> Library User System </title>
+	</head>
+	<body>
+		<h2>Patron Information</h2>
+		<form action="search.php" method="post">
+			Name: <input type="text" name="patname"></br></br>
+			Card Number: <input type="number" name="cardnum"></br></br>
+			Email: <input type="text" name="email"></br></br>
+			<input type="submit" name="patron" value="Patrons" />
+		</form>
+		<hr/>
+		<h2>Search Books</h2>
+		<form action="booksearch.php" method="post">
+			Title:<input type="text" name="title"></br></br>
+			Author: <input type="text" name="author"></br></br>
+			Call Number: <input type="text" name="callnum"></br></br>
+			<input type="submit" name="books" value="books"/>
+		</form>
+	</body>
+</html>
